@@ -1,0 +1,17 @@
+
+
+#carouselExampleIndicators {
+  margin-bottom: 20px;
+  border-bottom: 5px solid #ff6700;
+}
+
+.carousel-item img {
+  height: 325px;
+}
+//mobile 480px
+@media only screen and (max-width: 600px) {
+  .carousel-item img {
+    height: 200px;
+  }
+  
+}
